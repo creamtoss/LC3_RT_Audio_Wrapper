@@ -38,10 +38,10 @@ STEP BY STEP GUIDE
 4. Add files to the subfolders
 	• Move files all files and folders from ../LC3plusET SIsrcv1148220190725/src/floatingpoint to ../rtaudio−master/lc3
 	• Move lc3wrapper.c and lc3wrapper.h from ../LC3RTAudioWrapper−main to ../rtaudio-master/wrapper
-	• Move rtaudiolc3.cpp from ../LC3RTAudioWrapper−main to ../rtaudio-master/test
+	• Move rtaudiolc3.cpp from ../LC3RTAudioWrapper−main to ../rtaudio-master/tests
 
 5. Open the RT-Audio VS-Workspace
-	open the rtaudio.dsw file from ../rtaudio−masterold/tests/Windows. Click "OK" if VS asks for an unidirectional upgrade 
+	open the rtaudio.dsw file from ../rtaudio−master/tests/Windows. Click "OK" if VS asks for an unidirectional upgrade 
 	of the project. From now on rtaudio.sln can be opened.
 
 6. Adapt RT-Audio to VS 19
@@ -61,7 +61,7 @@ STEP BY STEP GUIDE
 	by right-clicking on the "duplex" project and selecting "add already existing element". Add:
 	• All files within ../rtaudio−master/lc3 but NOT the files withing the../rtaudio−master/lc3/fft subfolder!
 	• All files within ../rtaudio−master/wrapper
-	• The rtaudiolc3.cpp file within ../rtaudio−master/test
+	• The rtaudiolc3.cpp file within ../rtaudio−master/tests
 
 10. Edit further project settings
 	by right-clicking the "duplex" project and selecting "project properties":
